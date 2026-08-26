@@ -121,6 +121,7 @@
 
 - C / C++
   - [ENet](http://enet.bespin.org/) - Simple and robust reliable UDP networking library.
+  - [fixed](https://github.com/mas-bandwidth/fixed) - Fixed point math library for stable cross-platform and cross-compiler determinism.
   - [GameNetworkingSockets](https://github.com/ValveSoftware/GameNetworkingSockets) - Valve's internal (Steam) network transport layer for games.
   - [GGPO](https://github.com/pond3r/ggpo) - Good Game, Peace Out Rollback Network SDK.
   - [KCP](https://github.com/skywind3000/kcp) - A fast and reliable ARQ protocol.
@@ -183,6 +184,7 @@
 - [Network Link Conditioner](https://nshipster.com/network-link-conditioner/) - Network environment simulation utility. (macOS, iOS)
 - [Network Simulator (ns)](https://www.nsnam.org) - Network simulator targeting research and educational use. (macOS, Linux)
 - [Postman](https://www.postman.com/) - Web API debugging and development client. (Windows, macOS, Linux)
+- [Schema](https://github.com/mas-bandwidth/schema) - Bit-packed schema language compiled to C, C++, C#, Go, Rust and JavaScript.
 - [websocat](https://github.com/vi/websocat) - CLI client for WebSockets like netcat or curl. (Windows, macOS, Linux)
 - [Wireshark](https://www.wireshark.org/) - Network traffic analyzer tool. (Windows, macOS, Linux)
 
