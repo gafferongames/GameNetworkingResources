@@ -6,6 +6,7 @@
 
 - [1500 Archers on a 28.8: Network Programming in Age of Empires and Beyond](https://www.gamedeveloper.com/programming/1500-archers-on-a-28-8-network-programming-in-age-of-empires-and-beyond) - Mark Terrano, Paul Bettner.
 - [Alvaro Jover-Alvarez's Blog](https://vorixo.github.io/devtricks/) - Various articles on Unreal Engine 5 multiplayer by Alvaro Jover-Alvarez.
+- [Arma's Server Authoritative Vehicles](https://reforger.armaplatform.com/news/server-authoritative-vehicles) - Deterministic vehicle physics, prediction, input replay and reconciliation.
 - [Choosing TCP or UDP: a guide for game developers](https://web.archive.org/web/20210415231950/https://heroiclabs.com/docs/expert-tcp-udp/) - Basic TCP vs UDP comparison by Heroic Labs.
 - [Close Look: Halo Infinite's Online Experience](https://www.halowaypoint.com/news/closer-look-halo-infinite-online-experience) - Discussing netcode issues and mitigations by Richard Watson.
 - [Delta Rollback: New optimizations for Rollback Netcode](https://medium.com/@david.dehaene/delta-rollback-new-optimizations-for-rollback-netcode-7d283d56e54b) - New ideas and optimizations by David Dehaene.
@@ -22,6 +23,7 @@
 - [Game Server Architecture](https://web.archive.org/web/20210419133753/https://gameserverarchitecture.com/) - Matthew Walker's multiplayer game server architecture blog.
 - [High Performance Browser Networking](https://hpbn.co/) - A free online book about modern web protocols by Ilya Grigorik.
 - [How a Shooter Shoots](https://kotaku.com/5869564/networking-how-a-shooter-shoots) - Armin Ronacher's analysis on Battlefield 3's shooting mechanism in multiplayer.
+- [How 2XKO Handles Online Play](https://2xko.riotgames.com/en-us/news/dev/how-2xko-handles-online-play/) - In-depth explanation of the Riot made fighting game 2XKO's netcode, particularly why they chose to go for a client-server model over peer-to-peer.
 - [Impact Of Latency In Wireless Networks For Real-time Multiplayer Games On Mobile Devices](https://ntnuopen.ntnu.no/ntnu-xmlui/bitstream/handle/11250/2352307/11752_FULLTEXT.pdf) - A paper.
 - [IT Hare on Network Programming](http://ithare.com/category/network-programming/) - Detailed network programming articles from IT Hare team.
 - [I wanna make a fighting game!](https://andrea-jens.medium.com/i-wanna-make-a-fighting-game-a-practical-guide-for-beginners-part-1-2021-update-955a4672eea5) - Series of articles explaining how to make your own fighting game, with special attention given to the requirements of peer-to-peer rollback netcode, like determinism.
@@ -34,16 +36,17 @@
 - [Networking of a turn-based game](https://longwelwind.net/blog/networking-turn-based-game/) - Deterministic state synchronization netcode by Frédéric Kaczynski.
 - [Network Protocols](https://www.destroyallsoftware.com/compendium/network-protocols?share_key=97d3ba4c24d21147) - A brief overview of low-level network protocols stack from Destroy All Software.
 - [Más Bandwidth](https://mas-bandwidth.com) - Glenn Fiedler's new blog on game network programming and scalable backend engineering.
-- [Peeking into Valorant's Netcode](https://technology.riotgames.com/news/peeking-valorants-netcode) - Netcode overview and peeker's advantage by Matt deWet and David Straily.
 - [Quake 3 Network Model](http://fabiensanglard.net/quake3/network.php) - Fabien Sanglard's source code review about Quake 3's networking model.
 - [Real Time Multiplayer in HTML5](http://buildnewgames.com/real-time-multiplayer/) - Sven Bergström's multiplayer game development on the web guide.
 - [Replication in Networked Games](https://0fps.net/2014/02/10/replication-in-networked-games-overview-part-1/) - Mikola Lysenko's replication articles for JavaScript-based multiplayer.
+- [Rollback Network Code for Fighting Games](https://x.com/SebAaltonen/status/1687691543157829632) - An explanation thread by Sebastian Aaltonen.
 - [Rollback Pseudo Code](https://gist.github.com/rcmagic/f8d76bca32b5609e85ab156db38387e9) - A high level pseudocode of peer-to-peer rollback netcode.
 - [Rollback Networking in INVERSUS](http://blog.hypersect.com/rollback-networking-in-inversus/) - Ryan Juckett's post on a peer-to-peer rollback system in multiplayer.
 - [SnapNet Blog](https://www.snapnet.dev/blog/) - Netcode Architectures (lockstep, rollback, snapshot interpolation, Tribes') by Jay Mattis.
 - [Source Multiplayer Networking](https://developer.valvesoftware.com/wiki/Source_Multiplayer_Networking) - Valve's Source engine wiki including advanced game networking topics.
 - [Sync Host Overview](https://www.gamedevs.org/uploads/introduction-to-sync-host.pdf) - A slide deck covering Sync Host architecture by Peter Kao from Insomniac Games.
 - [Tech-Stack of the Ultima Online Servers](https://www.quora.com/What-was-the-technology-stack-driving-the-original-Ultima-Online-servers) - A summary of UO tech-stack by Raph Koster and Brian Crowder.
+- [Teardown Multiplayer](https://blog.voxagon.se/2026/03/13/teardown-multiplayer.html) - Semi-deterministic netcode for destructible voxel physics by Dennis Gustafsson.
 - [The Case of the Quake Cheats](http://www.catb.org/esr/writings/quake-cheats.html) - Security lessons from client-server model from Quake 1 by id Software.
 - [The DOOM III Network Architecture](http://mrelusive.com/publications/papers/The-DOOM-III-Network-Architecture.pdf) - Improvements on network architectures used in Quake III Arena.
 - [The Poor Man's Netcode](http://etodd.io/2018/02/20/poor-mans-netcode/) - Project code and detailed blog post about networking challenges by Evan Todd.
@@ -55,7 +58,11 @@
 - [Unreal Engine 3 Networking & Replication](https://api.unrealengine.com/udk/Three/ReplicationHome.html) - Historical UE3 game networking from the old wiki.
 - [Unreal Engine 4 Framework & Network](https://web.archive.org/web/20230324101942/http://www.nafonso.com/home/unreal-framework-network) - A look into Unreal game networking framework by Nuno Afonso.
 - [Unreal Engine Multiplayer Network Compendium](https://cedric-neukirchen.net/docs/category/multiplayer-network-compendium/) - Introduction to Unreal multiplayer by Cedric Neukirchen.
-- [Valorant's 128-Tick Servers](https://technology.riotgames.com/news/valorants-128-tick-servers) - Server runtime optimization techniques in-depth by Brent Randall.
+- [Unreal Engine Networked Physics](https://dev.epicgames.com/community/learning/tutorials/5E4w/unreal-engine-networked-physics-fundamentals) - Tutorial series on networked physics in Unreal Engine by Epic Games.
+- [Valorant / 128-Tick Servers](https://technology.riotgames.com/news/valorants-128-tick-servers) - Server runtime optimization techniques in-depth by Brent Randall.
+- [Valorant / Peeking into Netcode](https://technology.riotgames.com/news/peeking-valorants-netcode) - Netcode overview and peeker's advantage by Matt deWet and David Straily.
+- [Valorant / The State of Hit Registration](https://playvalorant.com/en-us/news/dev/the-state-of-hit-registration/) - Trade-offs in hit registration and server rewind by Kevin Lee.
+- [What is Rollback Netcode?](https://bymuno.com/post/rollback) - An illustrated explanation of rollback netcode in fighting games by Muno.
 - [What Makes Apex Tick: A Developer Deep Dive Into Servers and Netcode](https://www.ea.com/en-au/games/apex-legends/news/servers-netcode-developer-deep-dive) - by Samy Duc.
 - RU [Как мы писали сетевой код мобильного PvP шутера](https://habr.com/ru/company/pixonic/blog/415959/) - Pixonic о клиенте в быстром шутере.
 
@@ -82,6 +89,7 @@
   - [2018 / It IS Rocket Science!](https://www.gdcvault.com/play/1024972/It-IS-Rocket-Science-The) - The physics and networking of Rocket League in details by Jared Cone.
   - [2019 / Back to the Future! Working with Deterministic Simulation in For Honor](https://gdcvault.com/play/1026077/Back-to-the-Future-Working) - by Jennifer Henry.
   - [2019 / Quantum Deep Dive](https://vimeo.com/335798361/2f90c04a30) - Photon Quantum Network Engine for Unity by Eric from Exit Games.
+  - [2023 / Predicted Physics-Based Multiplayer in Space Engineers](https://gdcvault.com/play/1029260/Online-Game-Technology-Summit-Predicted) - Talk by Jan Hlousek.
 - Unreal Engine Livestream
   - [Replication Graph](https://www.youtube.com/watch?v=CDnNAAzgltw) - Epic's dev-team demonstrates UE 4.20's new Replication Graph feature.
   - [Server Optimizations](https://www.youtube.com/watch?v=mT8VUVuk-CY) - Ryan Gerleve and Dave Ratti to discuss server optimization techniques in UE4.
@@ -90,17 +98,21 @@
   - [Bali 2025 / Best Practices for Networked Movement Abilities](https://www.youtube.com/watch?v=tSVcRbfK8X8) - Talk by Zhi Kang Shao.
   - [Bali 2025 / Network Prediction: Replication's Crystal Ball](https://www.youtube.com/watch?v=S0r005tEmSA) - Talk by Andrew Joy.
   - [Orlando 2025 / Developing and Launching a New Replication System](https://www.youtube.com/watch?v=K472O2rVvG0) - Talk by Peter Engstrom.
+  - [Stockholm 2025 / A Dive Into Networked Physics-Based Character Movement](https://www.youtube.com/watch?v=_jRLlTDqoGI) - Talk by Tom Waterson and Markus Boberg.
 - Unity Unite
   - [EU 2016 / Building a PvP focused MMO](https://www.youtube.com/watch?v=x_4Y2-B-THo) - Albion MMO architecture by David Salz from Sandbox.
   - [EU 2017 / Photon vs UNet](https://www.youtube.com/watch?v=Y1my5bKhKJY) - Netcode architecture comparison by Christof Wegmann from Exit Games.
   - [LA 2018 / Deep-Dive Into Networking for Unity's FPS Sample](https://www.youtube.com/watch?v=k6JTaFE7SYI) - Talk by Peter Andreasen from Unity.
   - [EU 2019 / Intro to DOTS and Netcode](https://www.youtube.com/watch?v=P_-FoJuaYOI) - Networked future of Unity using DOTS by Tim Johansson.
 - Other
+  - [Animation Networking](https://www.youtube.com/watch?v=mKBDhC6-t4s) - Replicating animations via graph parameters or pose tasks by Bobby Anguelov.
   - [Between Two Servers](https://www.youtube.com/playlist?list=PLzVi6Kh_HMIWKS1aXOV4XobuymoF0P-_S) - Glenn Fiedler interviews gamedevs about multiplayer and netcode.
   - [Engineering Fast Paced Multiplayer Games with Gabriel Gambetta](https://www.youtube.com/watch?v=HHdUUP3Z3HA) - 1 hour interview podcast.
   - [Rollback Netcode in Godot](https://www.youtube.com/playlist?list=PLCBLMvLIundBXwTa6gwlOUNc29_9btoir) - A tutorial series about implementing rollback netcode in Godot.
   - [HandmadeCon 2015 / Pat Wyatt](https://www.youtube.com/watch?v=1faaOrtHJ-A) - Chat about Guild Wars, Diablo, StarCraft netcode by Pat Wyatt.
+  - [How Server Authority works on Roblox](https://www.youtube.com/watch?v=hb14MxhZiOU) - Authoritative movement, prediction and smoothing by Roblox.
   - [Overwatch / Let's Talk Netcode](https://www.youtube.com/watch?v=vTH2ZPgYujQ) - Overwatch netcode by Tim Ford and Philip Orwig from Blizzard.
+  - [Tick Rate, Servers, and More](https://www.youtube.com/watch?v=m08Uriv-RgU) - Samy Duc on netcode and choosing models to serve game design.
   - [Unity + Mirror Networking Tutorials](https://www.youtube.com/playlist?list=PLXEG2omgKgCapAmGe20XBgd87rmxFdKhK) - Conceptual and hands-on implementation by Neil Shah.
   - [Valorant / Netcode & 128-Servers](https://www.youtube.com/watch?v=_Cu97mr7zcM) - Some basic networking concepts in Valorant from Riot Games.
   - [Warframe / Networking Architecture](https://www.youtube.com/watch?v=VVetqMgcN50) - Warframe netcode by Maciej Sinilo from Digital Extremes.
@@ -123,6 +135,7 @@
   - [yojimbo](https://github.com/mas-bandwidth/yojimbo) - Reliable UDP networking library for client/server games with dedicated servers (C++).
 - C#
   - [Barebones Master Server](https://github.com/alvyxaz/barebones-masterserver) - Backend framework with auth, profile, lobby, chat features for Unity.
+  - [BestoNet](https://github.com/BestoGames/BestoNet) - GGPO-style rollback networking for fighting game in Unity/C#.
   - [DarkRift 2](https://github.com/DarkRiftNetworking/DarkRift) - Unity focused high-performance multi-threaded multiplayer networking solution.
   - [FishNet](https://github.com/FirstGearGames/FishNet) - Unity networking solution aimed towards reliability, ease of use, efficiency, and flexibility.
   - [Forge Networking](https://github.com/BeardedManStudios/ForgeNetworkingRemastered) - Unity focused real-time multiplayer networking solution.
@@ -138,9 +151,9 @@
   - [Networker](https://github.com/MarkioE/Networker) - TCP and UDP networking library (.NET/Unity).
   - [Normcore](https://normcore.io/) - Seamless multiplayer game networking for Unity (Cloud/SaaS).
   - [Photon Engine](https://photonengine.com) - Hybrid multiplayer game networking platform (Cloud/SaaS).
+  - [PurrNet](https://github.com/PurrNet/PurrNet) - Free and open-source Unity Networking solution (Unity/C#).
   - [RiptideNetworking](https://github.com/tom-weiland/RiptideNetworking) - Lightweight C# networking solution for multiplayer games.
   - [TNet 3](https://assetstore.unity.com/packages/tools/network/networking-and-serialization-tools-tnet-3-56798) - Multiplayer networking and serialization tools for Unity (open-source).
-  - [BestoNet](https://github.com/BestoGames/BestoNet) - GGPO-style rollback networking for fighting game in Unity/C#.
 - Go
   - [Agones](https://github.com/googleforgames/agones) - Dedicated Game Server Hosting and Scaling for Multiplayer Games on Kubernetes
   - [Nakama](https://github.com/heroiclabs/nakama) - Open-source backend infrastructure for multiplayer games (also with Unity/C# SDK).
